@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "930008774211",
+    "firebase_url": "https://better-tok-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "better-tok",
+    "storage_bucket": "better-tok.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930008774211:android:becbdbf21e9f266ddd46f6",
+        "android_client_info": {
+          "package_name": "com.example.tiktok_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930008774211-pqkm1kb660p06ijkovj144f9ml0lchdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsUa3mK7Yvcya2z083ILmwoSJKAgP69xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930008774211-pqkm1kb660p06ijkovj144f9ml0lchdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
