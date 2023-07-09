@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:tiktok_clone/controllers/auth.dart';
+import 'package:tiktok_clone/views/screens/signup_screen.dart';
 import 'package:tiktok_clone/views/widgets/constants.dart';
 import 'package:tiktok_clone/views/widgets/text_input.dart';
 
@@ -98,7 +99,13 @@ class _LoginScreenState extends State<LoginScreen> {
                 style: TextStyle(fontSize: 20),
               ),
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  navigator?.push(
+                    MaterialPageRoute(
+                      builder: (context) => SignUpScreen(),
+                    ),
+                  );
+                },
                 child: Text(
                   'Register',
                   style: TextStyle(fontSize: 20, color: buttoncolor),
